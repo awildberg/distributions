@@ -1,5 +1,5 @@
 # crystalstats
-loosely port of rubystats to crystal
+loosely port of rubystats to crystal with bugfixes
 
 ## Usage
     require "crystalstats"
