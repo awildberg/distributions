@@ -1,9 +1,11 @@
 name: crystalstats
 version: 0.3.1
+crystal: ">= 0.36"
 
 authors:
   - awildberg
 
-crystal: ">= 0.36"
+description: |
+  Statistics Package for Crystal ported from Rubystats
 
 license: MIT
