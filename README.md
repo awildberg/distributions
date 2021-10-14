@@ -2,7 +2,7 @@
 loosely port of **rubystats** to crystal with bugfixes
 
 ## Usage
-    require "./distributions"
+    require "distributions"
 
 ## available classes
 
