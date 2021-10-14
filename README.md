@@ -1,8 +1,8 @@
-# crystalstats
+# distributions
 loosely port of **rubystats** to crystal with bugfixes
 
 ## Usage
-    require "crystalstats"
+    require "./distributions"
 
 ## available classes
 
