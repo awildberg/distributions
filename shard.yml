@@ -1,0 +1,9 @@
+name: crystalstats
+version: 0.3.1
+
+authors:
+  - awildberg
+
+crystal: 0.36.1
+
+license: MIT
