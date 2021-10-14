@@ -1,4 +1,4 @@
-require "../distributions/probability_distribution"
+require "distributions/probability_distribution"
 # This class provides an object for encapsulating normal distributions
 # Ported to Ruby from PHPMath class by Bryan Donovan
 # Author:: Jaco van Kooten 
