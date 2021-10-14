@@ -1,4 +1,4 @@
-require "probability_distribution"
+require "../lib/probability_distribution"
 # This class provides an object for encapsulating binomial distributions
 # Ported to Ruby from PHPMath class by Bryan Donovan
 # Author:: Mark Hale
