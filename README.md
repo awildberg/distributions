@@ -6,11 +6,23 @@ loosely port of rubystats to crystal with bugfixes
 
 ## available classes
 
-**NormalDistribution**<br>
-**BinomialDistribution**
+**NormalDistribution<br>
+BinomialDistribution<br>
+BetaDistribution<br>
+CauchyDistribution<br>
+ExponentialDistribution<br>
+FishersExactTest<br>
+GammaDistribution<br>
+LognormalDistribution<br>
+PoissonDistribution<br>
+StudentTDistribution<br>
+UniformDistribution<br>
+WeibullDistribution**
 
-more added in the next days
+added after Matrix and Vector have been implemented:<br>
+**MultivariateNormalDistribution**
 
+##
 ### create object
     norm  = Normal.new  2.0,  5       # shortcut for "NormalDistribution.new"
     bino  = Binomial.new 2, 0.4
