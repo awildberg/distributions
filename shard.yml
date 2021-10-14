@@ -1,4 +1,4 @@
-name: crystalstats
+name: distributions
 version: 0.3.1
 crystal: ">= 0.36"
 
