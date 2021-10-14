@@ -12,17 +12,17 @@ loosely port of rubystats to crystal with bugfixes
 more added in the next days
 
 ### create object
-    norm = Normal.new  2.0,  5       # shortcut for "NormalDistribution.new"
-    bino = Binomial.new 2, 0.4
-    beta = Beta.new  0.1,  0.3
-    cach = Cauchy.new    2,  3
-    expo = Exponential.new
-    fi = Fisher.new
+    norm  = Normal.new  2.0,  5       # shortcut for "NormalDistribution.new"
+    bino  = Binomial.new 2, 0.4
+    beta  = Beta.new  0.1,  0.3
+    cach  = Cauchy.new    2,  3
+    expo  = Exponential.new
+    fi    = Fisher.new
     gamma = Gamma.new
-    log = Lognormal.new
-    pois = Poisson.new 10
-    st = Student.new
-    uni = Uniform.new 0, 10
+    log   = Lognormal.new
+    pois  = Poisson.new 10
+    st    = Student.new
+    uni   = Uniform.new 0, 10
     wbull = Weibull.new
     
 ### probability density function
