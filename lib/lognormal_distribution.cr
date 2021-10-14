@@ -1,5 +1,5 @@
-require "probability_distribution"
-require "normal_distribution"
+require "../lib/probability_distribution"
+require "../lib/normal_distribution"
 # This class provides an object for encapsulating lognormal distributions
 module Crystalstats
   class LognormalDistribution < Crystalstats::ProbabilityDistribution

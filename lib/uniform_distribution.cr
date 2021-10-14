@@ -1,4 +1,4 @@
-require "probability_distribution"
+require "../lib/probability_distribution"
 # This class provides an object for encapsulating uniform distributions
 module Crystalstats
   class UniformDistribution < Crystalstats::ProbabilityDistribution

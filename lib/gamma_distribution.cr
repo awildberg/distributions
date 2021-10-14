@@ -1,5 +1,5 @@
-require "normal_distribution"
-require "probability_distribution"
+require "../lib/normal_distribution"
+require "../lib/probability_distribution"
 module Crystalstats
   class GammaDistribution < Crystalstats::ProbabilityDistribution
     include Crystalstats::NumericalConstants
