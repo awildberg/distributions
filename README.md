@@ -1,5 +1,5 @@
 # distributions
-loosely port of **rubystats** to crystal with bugfixes
+loosely port of **rubystats** https://github.com/phillbaker/rubystats to crystal with bugfixes
 
 ## Usage
     require "distributions"
