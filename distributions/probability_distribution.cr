@@ -1,4 +1,4 @@
-require "../distributions/modules"
+require "distributions/modules"
 
 module Crystalstats
   # The ProbabilityDistribution superclass provides an object 
@@ -48,7 +48,7 @@ module Crystalstats
 
     def pdf(a : Array(Int32 | Float64))
       pdf_vals = [] of Int32 | Float64
-      (0...a.size).each do |i|
+      (0...a.size).each do |i|      # changed to only output provided number of random numbers
         pdf_vals << get_pdf(a[i])
       end
       return pdf_vals
