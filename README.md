@@ -2,14 +2,22 @@
 loosely port of **rubystats** https://github.com/phillbaker/rubystats to crystal with bugfixes
 
 ## Installation
-Find your crystal installation and the corresponding ```src``` directory:
+### manual
+Find your crystal installation and the corresponding `src` directory:
 
     crystal_bin="$(ls $(which crystal))"      # e.g. /Users/user/crystal/bin/crystal
     crystal_dir="${crystal_bin%/*/*}/src/"    # gives /Users/user/crystal/src/
 
-Place the main file ```distributions.cr``` and the libraries ```distributions``` into the ```src``` directory:
+Place the main file `distributions.cr` and the libraries `distributions` into the `src` directory:
 
     cp -R distributions.cr distributions "${crystal_dir}"
+
+### automatic
+Simply put the following dependency in your `shard.yml`
+
+    dependencies:
+      distributions:
+      github: awildberg/distributions
 
 ## Usage
     require "distributions"
