@@ -19,6 +19,8 @@ Simply put the following dependency in your `shard.yml`
       distributions:
         github: awildberg/distributions
 
+`shard install`
+
 ## Usage
     require "distributions"
 
