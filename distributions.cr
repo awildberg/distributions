@@ -10,7 +10,7 @@ require "./distributions/student_t_distribution"
 require "./distributions/weibull_distribution"
 require "./distributions/cauchy_distribution"
 require "./distributions/gamma_distribution"
-require "./distributions/multivariate_normal_distribution"
+#require "./distributions/multivariate_normal_distribution"
 require "./distributions/version"
 
 module Crystalstats
@@ -28,7 +28,7 @@ StudentTDistribution = Crystalstats::StudentTDistribution
 WeibullDistribution = Crystalstats::WeibullDistribution
 CauchyDistribution = Crystalstats::CauchyDistribution
 GammaDistribution = Crystalstats::GammaDistribution
-MultivariateNormalDistribution = Crystalstats::MultivariateNormalDistribution
+#MultivariateNormalDistribution = Crystalstats::MultivariateNormalDistribution
 
 #short-hand notation
 Normal = Crystalstats::NormalDistribution
@@ -43,4 +43,4 @@ Student = Crystalstats::StudentTDistribution
 Weibull = Crystalstats::WeibullDistribution
 Cauchy = Crystalstats::CauchyDistribution
 Gamma = Crystalstats::GammaDistribution
-MultivariateNormal = Crystalstats::MultivariateNormalDistribution
+#MultivariateNormal = Crystalstats::MultivariateNormalDistribution
