@@ -17,7 +17,7 @@ Simply put the following dependency in your `shard.yml`
 
     dependencies:
       distributions:
-      github: awildberg/distributions
+        github: awildberg/distributions
 
 ## Usage
     require "distributions"
