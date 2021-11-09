@@ -88,6 +88,12 @@ module Crystalstats
     def rng
       self.icdf(rand)
     end
+
+    def rng(n : Int32)
+      arr = [] of Float64
+      n.times { |_| arr << rand }
+      self.icdf(arr)
+    end
 	
   end
 end
