@@ -102,11 +102,14 @@ module Crystalstats
       #  return get_rng()[0]
       #end
       rnd_vals = [] of Float64
-      (((n/2).ceil).to_i).times do |i|
+      #(((n/2).ceil).to_i).times do |i|
+      (n.to_i).times do |_|
         tmp : Array(Float64) = get_rng()
-        rnd_vals << tmp[0]
-        rnd_vals << tmp[1]
-      end
+        (tmp.size).times { |i| rnd_vals << tmp[i] }
+        if rnd_vals.size >= n
+          break
+        end
+      end  
       return rnd_vals[0...n]
     end
 
