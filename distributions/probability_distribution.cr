@@ -1,4 +1,4 @@
-require "distributions/modules"
+require "../distributions/modules"
 
 module Crystalstats
   # The ProbabilityDistribution superclass provides an object 
