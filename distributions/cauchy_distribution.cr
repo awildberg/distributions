@@ -1,4 +1,4 @@
-require "distributions/probability_distribution"
+require "../distributions/probability_distribution"
 module Crystalstats
   class CauchyDistribution < Crystalstats::ProbabilityDistribution
 
