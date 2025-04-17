@@ -5,7 +5,7 @@ loosely port of **rubystats** https://github.com/phillbaker/rubystats to crystal
 ### manual
 Find your crystal installation and the corresponding `src` directory:
 
-    crystal_bin="$(ls $(which crystal))"      # e.g. /Users/user/crystal/bin/crystal
+    crystal_bin="$(which crystal)"            # e.g. /Users/user/crystal/bin/crystal
     crystal_dir="${crystal_bin%/*/*}/src/"    # gives /Users/user/crystal/src/
 
 Place the main file `distributions.cr` and the libraries `distributions` into the `src` directory:
